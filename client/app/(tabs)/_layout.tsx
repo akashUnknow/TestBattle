@@ -4,13 +4,17 @@ import { FontAwesome5 } from "@expo/vector-icons";
 export default function TabsLayout() {
   return (
     <Tabs
+      
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: "#1D4ED8",
+        tabBarActiveTintColor: "#3B82F6",
         tabBarInactiveTintColor: "#6B7280",
+        tabBarStyle: { backgroundColor: "#1F2937" },
+        tabBarLabelStyle: { fontSize: 12, fontWeight: "bold" },
       }}
     >
       <Tabs.Screen
+      
         name="Home"
         options={{
           title: "Home",
