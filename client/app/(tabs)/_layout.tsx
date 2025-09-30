@@ -22,6 +22,13 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
+        name="Test"
+        options={{
+          title: "Test",
+          tabBarIcon: ({ color, size }) => <FontAwesome5 name="book" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="Friends"
         options={{
           title: "Friends",
@@ -35,13 +42,7 @@ export default function TabsLayout() {
           tabBarIcon: ({ color, size }) => <FontAwesome5 name="phone" size={size} color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="Test"
-        options={{
-          title: "Test",
-          tabBarIcon: ({ color, size }) => <FontAwesome5 name="flask" size={size} color={color} />,
-        }}
-      />
+      
     </Tabs>
   );
 }
