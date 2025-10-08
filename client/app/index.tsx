@@ -17,7 +17,7 @@ const handleLogin = () => {
     return;
   }
   // Navigate to Tabs
-  router.replace("/(tabs)/Home"); // <-- this will open the tab navigator
+  // router.replace("/(tabs)/Home"); // <-- this will open the tab navigator
 };
 
 
